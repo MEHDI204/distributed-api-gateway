@@ -38,10 +38,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-<!--    <dependency>-->
-<!--            <groupId>org.springframework.boot</&#45;&#45;groupId>-->
-<!--            <artifactId>spring-boot-starter-security</artifactId>-->
-<!--    </dependency>-->
+    <dependency>
+            <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-security</artifactId>
+    </dependency>
         <dependency>
             <groupId>com.auth0</groupId>
             <artifactId>java-jwt</artifactId>
