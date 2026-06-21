@@ -1,0 +1,18 @@
+POST http://localhost:8080/api/users
+Content-Type: application/json
+Authorization: SecretToken123
+
+{
+  "username": "mehdi",
+  "password": "mysecurepassword"
+}
+
+###
+
+POST http://localhost:8080/api/users/login
+Content-Type: application/json
+
+{
+  "username": "mehdi",
+  "password": "mysecurepassword"
+}
